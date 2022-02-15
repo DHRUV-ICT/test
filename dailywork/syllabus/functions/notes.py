@@ -3,5 +3,4 @@
 x = True      # function print,
 print(x)  # keywords True,False,
 print(True + True + False) # datatypes int,str,float
-#if,else.elif.for,while all are keywords to strat loops
-
+#if,else.elif.for,while all are keywords to start loops

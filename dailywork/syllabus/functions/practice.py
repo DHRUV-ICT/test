@@ -18,10 +18,10 @@
 # fun([1,2,3,4,5,6,7,8]) # if we pass list in function then we must be give list otherwise it change that value
 
 
-def fun():
-    pass  # it gives none type
-    return 1,2,3,4
-print(type(fun()))  # it gives class tuple
+# def fun():
+#     pass  # it gives none type
+#     return 1,2,3,4
+# print(type(fun()))  # it gives class tuple
 
 #Positional arguments
 #must agree in order and number with the parameters declared in the function definition.
@@ -34,3 +34,11 @@ print(type(fun()))  # it gives class tuple
 #Default parameters
 #allow some arguments to be omitted when the function is called.
 #functionname(give any one argument)
+
+def rec(d):
+    if d != 0:
+        rec(d-1)
+        print(d,end=' ')
+
+
+rec(12)
