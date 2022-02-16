@@ -35,10 +35,15 @@
 #allow some arguments to be omitted when the function is called.
 #functionname(give any one argument)
 
-def rec(d):
-    if d != 0:
-        rec(d-1)
-        print(d,end=' ')
+# def rec(d):
+#     if d != 0:
+#         rec(d-1)
+#         print(d,end=' ')
 
 
-rec(12)
+# rec(12)
+
+# list always take iterable values
+# print(list(2))  # we cant make list with only one integer but we can with one string
+# print(list('INDIA')) # cause it is iterable
+
