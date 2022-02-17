@@ -3,7 +3,7 @@ d2 = {3:'c' , 4:'e'}
 x={'x': 60, 'y': 50, 'a': 10, 'b': 23}
 y = {'x': 60, 'y': 50, 'a': 10, 'b': 23 , 1:'a' , 2:'b', 3:'c' , 4:'e'}
 
-print((zip(d1.values(),d2.values())))
+# print((zip(d1.values(),d2.values())))
 
 # print(d1.items())  # list of tuples ( [()] )
 # print(d1.keys())   # list            ( [] )
@@ -14,9 +14,8 @@ print((zip(d1.values(),d2.values())))
 # print(max(x))   # max print maximum of all even alphabates
 # print(min(y)) #cant support between int and str
 
-
-# print(list(i for i in d1 if i%2==0))
-
+a =(i for i in d1 if i%2==0)
+print((a)) # print object of instances
 
 
 # l=[{'x': 20, 'y': 50, 'a': 10, 'b': 23}
