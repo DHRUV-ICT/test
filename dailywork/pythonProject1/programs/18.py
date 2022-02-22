@@ -15,8 +15,12 @@ a = l[-1]
 
 #print(list(enumerate(l)))
 for i,row in enumerate(l[0:-1]):
+     # print(i,row)
 
      for j,n in enumerate(row):
          #print(n)
          if a == n:
              print([i,j])
+
+
+print(dict(enumerate(l[0:-2])))

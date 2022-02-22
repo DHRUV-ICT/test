@@ -1,4 +1,4 @@
-l = [1,2,5,4,9,7,634,6]
+l = [1,2,3,4,5,6]
 
 # for x in l:
 #     if (x+1 - x) >0 :
@@ -10,16 +10,16 @@ l = [1,2,5,4,9,7,634,6]
 
 def function(list):
     a = []
-    count = 0
+    # count = 0
     for x in range(len(list)-1):
         if (((list[x + 1] - list[x]) > 0)):
             #print('increasing')
-            count += 1
+            # count += 1
             a.append('increasing')
         elif (((list[x+1] - list[x]) < 0)):
             a.append('decreasing')
             #print('decreasing')
-            count = 0
+            # count = 0
         elif ((list[x+1] - list[x]) ==  0) :
             a.append('afbhzasyvfgskjdis')
 
@@ -32,3 +32,8 @@ def function(list):
         print('non monotoonic')
 
 function(l)
+
+# def short():
+#     return all(x for x in range(len(l))  if l[x+1]-l[x]>0  )
+
+# print(short())

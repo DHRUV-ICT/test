@@ -1,13 +1,13 @@
 
 #print(~10) # it gives second compliment
 
-c =122.555
-#print(c.conjugate())  it means c bar  ex. conjugate of A+B is A-B
+# c =2-122.555j
+# print(c.conjugate()) # it means c bar  ex. conjugate of A+B is A-B
 
 
 re = 100
-im = 25.56
-#print(complex(re, im))  #doing sum of re with im's first value as minus like 100-25
+im = 25.56j
+print(complex(re, im))  #doing sum of re with im's first value as minus like 100-25
 
 #print(divmod(re,im)) #print division and modulo
 

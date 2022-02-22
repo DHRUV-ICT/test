@@ -7,7 +7,7 @@ def fun(x):
         pass
     return l1
 
-print(list(filter(fun,l)))
+print(set(filter(fun,l)))
 
 
 print(list(filter(lambda x:x == x.upper(),l1)))

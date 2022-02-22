@@ -101,3 +101,15 @@ print(li)
         #     print(j.valus())
         # print(b[i])
 
+
+# #def f3(list):   			#                                    a = [1,2,3]
+# 	for i in list:
+# 		if i in b.keys():
+# 			l1.append(i)
+# 			for j in b[i]:
+# 				l1.append(j)
+# 				if j in b.keys():
+# 					l1.append(b[j])
+# 					for z in b[j]:
+# 						if z in b.keys():
+# 							l1.append(b[z])

@@ -1,11 +1,12 @@
 import random
-total_number = int(input())
+total_number = 5
 l = []
 for x in range(total_number):
     r = random.randint(0,total_number)
     l.append(r)
-print(l[0::2])
+print(l[0::])
 
-# random.sample(range(),numbers we want)
+print(random.sample(range(10),5))
+print(random.randint(0,4))
 
 

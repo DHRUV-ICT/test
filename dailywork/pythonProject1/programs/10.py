@@ -10,3 +10,28 @@ for x in a:
         l.append(s)
         s = ''
 print(l)
+
+
+
+
+
+
+
+
+s = "( ()) ((()()())) (()) ()"
+s = s.replace(' ','')
+de = ''
+li = []
+for x in s:
+    # print(x,end=' ')
+    de += x
+    if de.count('(')== de.count(')'):
+        li.append(de)
+        de =''
+
+print(li)
+
+
+
+
+

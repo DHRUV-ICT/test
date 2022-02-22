@@ -1,22 +1,22 @@
-# s = input()
-# di = {',':' ',
-#        '.':' ',
-#        '?':' ',
-#        '!':' ',
-#        "'":''}
-# # table = s.maketrans(di)
-# # s = s.translate(table)
-# #
-# # a = s.split()
-# # l = ''
-# # print(a)
-# # for x in a:
-# #     l += x
-# #     l += '#'
-# # print((l))
+s = input()
+di = {',':' ',
+       '.':' ',
+       '?':' ',
+       '!':' ',
+       "'":''}
+# table = s.maketrans(di)
+# s = s.translate(table)
 #
-#
-# # method 2
+# a = s.split()
+# l = ''
+# print(a)
+# for x in a:
+#     l += x
+#     l += '#'
+# print((l))
+
+
+# method 2
 #
 # table = s.maketrans(di)
 # s = s.translate(table)

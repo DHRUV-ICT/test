@@ -5,22 +5,25 @@ def f1(fun):
         print("f2")
         s = str(fun())  # here f2 execute
         print("f1")
-        if s.isnumeric():
-            print('it is a num')
-        else:
-            print("no one")
     return inner
+
+    if s.isnumeric():
+        print('it is a num')
+    else:
+        print("no one")
 
 @f1
 def f2():
     if s.islower():
-        print(s)
+        print("it is lower")
     elif s.isupper():
         print('it is upper')
     else:
-        return s
+        print(s)
 
-f2()
+
+de = f2()
+de
 
 
 # greet(shout)   this is also method to decorate functions

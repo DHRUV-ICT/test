@@ -4,7 +4,7 @@ ti = int(input())
 l=[]
 sum = 0
 minus = 0
-for x in range(ti+1):
+for x in range(ti):
     t = input()
     a = int(input())
     l.append(t)
@@ -15,7 +15,7 @@ for y in range(len(l)):
         sum += l[y+1]
     elif l[y] == 'w':
         minus += l[y+1]
-        sum == sum-l[y+1]
+        # sum == sum-l[y+1]
 
 
 print(sum-minus)

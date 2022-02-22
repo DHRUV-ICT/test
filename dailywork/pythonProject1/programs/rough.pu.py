@@ -180,4 +180,15 @@ f = 8
 # def fun(x,y)
 
 # l = list(range('a','z',2))
+#
+# dict = {'a': 1, 'b': 2}
+#
+# # will create a new dictionary
+# new_dict = {**dict,**{'c': 3}}
+#
+# print(dict)
+# print(new_dict)
 
+tu = (1,2,2,3,4,'a','b')
+
+print(tu)

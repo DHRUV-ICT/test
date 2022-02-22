@@ -30,21 +30,18 @@ l = []
 # def num():
 # 	return 4
 l1 = []
-def f3(l):
-	c = 0
-	for i in l:
+def f3(f):   			#                                    a = [1,2,3]
+	for i in a:
 		if i in b.keys():
 			l1.append(i)
-			l1.append(b[i])
-			c += 1
-			if c < len(l):
-				if b[i][c] in b.keys():
-					l1.append(b[c])
-			else:
-				break
-	# for j in a:
-	# 	f3(j)
-
-
+			for j in b[i]:
+				if j in b[i]:
+					l1.append(j)
+			f3(b[i])
+		# l1.append(b[i])
+		# f3(b[i])
 	print(l1)
-f3(a)
+
+@f3
+def num():
+	return 3

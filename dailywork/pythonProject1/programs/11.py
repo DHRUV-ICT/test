@@ -1,8 +1,11 @@
 l = [100,(0,12,14,12,145,12,1256,11,12458,111)]
+l = [100,(0, 12, 45, 3, 4923, 322, 105, 29, 15, 39, 55)]
+
 a = l[0]
 for x in range(len(l[1])):
     if l[1][x] < a:
-        print(x)
+        print(l[1][x],l[1].index(l[1][x]))
 
-print(list(enumerate(l[1])))
+
+# print(list(enumerate(l[1])))
 
