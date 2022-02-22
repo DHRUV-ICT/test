@@ -189,6 +189,21 @@ f = 8
 # print(dict)
 # print(new_dict)
 
-tu = (1,2,2,3,4,'a','b')
+# tu = {1,2,2,3,4,'a','b'}
 
-print(tu)
+# tu.add('c')
+# tu.add(6)
+# tu.remove('c')
+# print(tu)
+def factorial(x):
+    """This is a recursive function
+    to find the factorial of an integer"""
+
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+
+
+print(factorial(8))
+
